@@ -1,0 +1,308 @@
+@import url("https://www.istockphoto.com/photo/catering-food-wedding-event-table-gm650655146-118180751?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fcatering&utm_term=catering%3A%3Asearch-explore-top-affiliate-outside-feed%3Adisabled");
+
+:root {
+  --blue: #0446fa;
+  --black: #031f1f;
+  --white: #ffffff;
+  --yellow: #d7fd01;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+}
+
+*::selection {
+  background: var(--blue);
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6.5rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--black);
+}
+
+section {
+  padding: 3rem 9%;
+}
+.btn {
+display: inline-block;
+margin-top: 1rem;
+border: 0.2rem solid var(--black);
+color: var(--black);
+font-size: 2rem;
+padding: 0.8rem 3rem;
+cursor: pointer;
+background: none;
+font-weight: bolder;
+}
+.btn:hover {
+background: var(--blue);
+background-color: var(--black);
+color: #fffb15;
+font-weight: bolder;
+}
+.image img {
+width: auto;
+height: 6rem;
+margin-left: -10rem;
+padding-left: 2cm;
+}
+.heading {
+padding-bottom: 2rem;
+text-align: center;
+}
+.heading h1{
+font-size: 3rem;
+color: #fff;
+padding-bottom: 1rem;
+text-transform: uppercase;
+}
+.heading hr{
+font-weight: bold;
+color: #fff;
+}
+/* Header Start */
+header {
+height: 6rem;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 10000;
+background: var(--black);
+padding: 1rem 10%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+  
+header .logo{
+font-size: 2.5rem;
+color: #fff;
+font-weight: bolder;
+  
+}
+  
+header .navbar a {
+color: #fff;
+font-size: 2rem;
+margin-left: 2rem;
+font-weight: bold;
+}
+header .navbar a:hover {
+color: var(--yellow);
+}
+/*Header End*/
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+
+.container .box{
+  top: 30%;
+  bottom: 30%;
+
+  box-sizing: border-box;
+  background-image: linear-gradient(rgb(197, 230, 13), #fff);
+  border-radius: 4px;
+  display: flex;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9);
+  text-align: left;
+  flex: 1 1 30rem;
+}
+.container .box img{
+  width: 25rem;
+  height: 30rem;
+  display: flex;
+}
+.container .box .content{
+  padding-left: 20px;
+}
+.container .box .content h3{
+  font-size: 3rem;
+  padding-bottom: 3%;
+  margin: 0;
+  padding-left: 0;
+  color: #030001;
+}
+.container .box .content p{
+  font-size: 2rem;
+  margin: 0;
+  padding: 10px 0 0;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+/*Contact Section Start*/
+.contact form{
+    padding: 2rem;
+    background:#fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.9);
+    text-align: center;
+  }
+  .contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .contact form .inputBox input, .contact form textarea{
+    border: 0.2rem solid rgba(0,0,0,.1);
+    font-size: 1.7rem;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    text-transform: none;
+    color: #333;
+  }
+  .contact form .inputBox input{
+    width: 49%;
+  }
+  .contact form textarea{
+    height: 15rem;
+    width: 100%;
+    resize: none;
+  }
+  .contact form .inputBox input::placeholder,
+  .contact form textarea::placeholder{
+    text-transform: capitalize;
+  }
+  .contact form .inputBox input::focus,
+  .contact form textarea::focus{
+    border-color: var(--blue);
+  }
+  /*Contact Section End*/
+
+  /*Footer Start*/
+.footer{
+    padding: .5rem 1.5rem;
+    font-size: 1.5rem;
+    color:var(--black);
+    background-color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .footer span{
+    color: (yellow);
+  }
+  /*Footer End*/
+
+  /*Popup Start*/
+  .wrapper{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   .wrapper a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    border: 0.2rem solid var(--black);
+    color: var(--black);
+    font-size: 2rem;
+    padding: 0.8rem 3rem;
+    cursor: pointer;
+    background: none;
+    font-weight: bolder;
+  }
+  .wrapper a:hover{
+      background: var(--blue);
+      background-color: var(--black);
+      color: #fffb15;
+      font-weight: bolder;
+  }
+
+  .modal{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(77, 77, 77, 0.7);
+  transition: all 0.4s;
+  visibility: hidden;
+  opacity: 0;
+}
+ .modal:target{
+  visibility: visible;
+  opacity: 1;
+}
+ .modalcontent{
+  position: relative;
+  background: #fff;
+  width: 500px;
+  max-width: 90%;
+  padding: 1em 2em;
+  border-radius: 4px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-size: 2rem;
+}
+a{
+  font-size: 21px;
+  font-weight: 600;
+}
+ .modalclose{
+  position: absolute;
+  top: 0;
+  right: 15px;
+  color:#585858;
+  text-decoration: none;
+  font-size: 36px;
+}
+
+.container .rating{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container .rating i{
+  font-size: 2rem;
+  margin: 0 2px;
+}
+/*Popup End*/
